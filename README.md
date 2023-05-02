@@ -2,7 +2,10 @@
 
 NaCL Chrome plugin checker
 
-Add this to HTML
+<hr>
+
+Add to HTML:
+
 ```
 <style>
     * {
@@ -22,3 +25,11 @@ Add this to HTML
   <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check_browser.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/js/check.js"></script>
   ```
+
+<hr>
+
+NPM
+
+```
+npm install nacl-check
+```
