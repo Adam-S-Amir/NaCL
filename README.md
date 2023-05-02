@@ -1,4 +1,4 @@
-[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/nacl/badge)](https://www.jsdelivr.com/package/gh/nacl)
+[![jsDelivr](https://data.jsdelivr.com/v1.0.0/package/gh/nacl/badge)](https://www.jsdelivr.com/package/gh/nacl)
 
 NaCL Chrome plugin checker
 
