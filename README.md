@@ -2,7 +2,7 @@
 
 NaCL Chrome plugin checker
 
-<a href='https://adamtrex.azurewebsites.net/programs/games/Funky%20Karts/index.html'>Live example</a>
+<a target='_blank' href='https://adamtrex.azurewebsites.net/programs/games/Funky%20Karts/index.html'>Live example</a>
 
 <hr>
 
