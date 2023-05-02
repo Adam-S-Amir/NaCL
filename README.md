@@ -17,6 +17,6 @@ Add this to HTML
   <div id="Selection">
     <h3 id="checker">Checking browser compatibility, please wait...</h3>
   </div>
-  <script src="./assets/js/check_browser.js"></script>
-  <script src="./assets/js/check.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL-Checker/check_browser.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL-Checker/js/check.js"></script>
   ```
