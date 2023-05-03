@@ -50,6 +50,7 @@ header h1 {
 	text-align: -webkit-center;
 	font-size: 2rem;
 	margin: 0;
+	position: relative;
 }
 
 nav ul {
