@@ -9,21 +9,10 @@ NaCL Chrome plugin checker
 Add to HTML:
 
 ```
-<style>
-    * {
-      overflow: hidden;
-    }
-    #Selection {
-      display: block;
-      position: absolute;
-      top: 1;
-      left: 5;
-      visibility: visible;
-    }
-  </style>
-  <div id="Selection">
+  <div id="Check-div">
     <h3 id="checker">Checking browser compatibility, please wait...</h3>
   </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.css">
   <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check_browser.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/js/check.js"></script>
   ```
