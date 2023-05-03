@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>NaCL Checker API</title>
 	<link rel="stylesheet" href="./assets/css/stylesheet.css">
 </head>
+
 <body>
 	<header>
 		<h1>NaCL Checker API</h1>
@@ -18,37 +20,58 @@
 	<main>
 		<section>
 			<h2>Introduction</h2>
-			<p>Introducing, NaCL Checker API! This package is designed to make it easy for developers to ensure that Chrome's Native Client plugin in enabled. into their web applications. </p>
+			<p>Introducing, NaCL Checker API! This package is designed to make it easy for developers to ensure that Chrome's Native Client plugin in enabled for use in their web applications.</p>
 			<p>Features of this API package include:</p>
+			<br>
 			<ul>
-				<li>Feature 1</li>
-				<li>Feature 2</li>
-				<li>Feature 3</li>
-				<li>Feature 4</li>
+				<li>Checking of an outdated Chrome version</li>
+				<li>NaCL plugin support</li>
+				<li>Supported browser checking</li>
+				<li>Use of a server or running the API offline</li>
 			</ul>
 		</section>
 		<section>
 			<h2>Getting Started</h2>
-			<p>To get started with this API package, simply follow these steps:</p>
-			<ol>
-				<li>Step 1</li>
-				<li>Step 2</li>
-				<li>Step 3</li>
+			<p>To get started with this API, simply follow these steps:</p>
+			<br>
+			<ol class="steps">
+				<li>Open a terminal or shell instance of your choice.</li>
+				<li>Type: npm install nacl-check</li>
+				<li>Copy all of the text inside the file labeled COPYING</li>
+				<li>OR insert the following directly into your HTML</li>
 			</ol>
-			<p>If you have any questions or issues, please don't hesitate to reach out to our support team.</p>
+			<ul class="steps">
+				<li>&lt;div id="Check-div"&gt;</li>
+				<li>&lt;h3 id="checker">Checking browser compatibility, please wait...&gt;</li>
+				<li>&lt;/div&gt;</li>
+				<li>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.css"&gt;</li>
+				<li>&lt;script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check_browser.js"&gt;&lt;/script&gt;</li>
+				<li>&lt;script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/js/check.js"&gt;&lt;/script&gt;</li>
+			</ul>
+			<br>
+			<p>If you have any questions or issues, please don't hesitate to reach out to our support team via <a href="mailto:magnusteam.contact@gmail.com">email</a>.</p>
 		</section>
 		<section>
 			<h2>Examples</h2>
-			<p>Here are some examples of how to use this API package:</p>
+			<p>Here is an example of this API:</p>
 			<pre>
 				<code>
-					// Insert code examples here
+					<div id="Check-div">
+						<h3 id="checker">Checking browser compatibility, please wait...</h3>
+					</div>
+					<style>
+						@import url("https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.css");
+					</style>
+					<script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check_browser.js"></script>
+					<script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/js/check.js"></script>
 				</code>
 			</pre>
+			<p>A live example is also available <a href='https://adamtrex.azurewebsites.net/programs/games/Funky%20Karts/index.html'>here</a>.</p>
 		</section>
 	</main>
 	<footer>
 		<p>Copyright &copy;MagnusMarks 2023</p>
 	</footer>
 </body>
+
 </html>
