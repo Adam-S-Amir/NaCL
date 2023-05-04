@@ -10,7 +10,7 @@ function HandleMessage(event) {
 }
 
 function Start() {
-    document.getElementById("Selection").style.display = "none";
+    document.getElementById("Check-div").style.display = "none";
 }
 
 let help = "NaCl disabled: Native Client is not enabled.<br>" + "Please go to <em id='link' href='chrome://flags#enable-nacl' target='_blank'>chrome://flags#enable-nacl</em> and enable the Native Client plugin.";
@@ -28,7 +28,7 @@ function checkBrowser() {
     switch (browserSupportStatus) {
         case browser_version.BrowserChecker.StatusValues.NACL_ENABLED:
             console.log('Native Client plugin enabled.');
-            document.getElementById("Selection").style.display = "none";
+            document.getElementById("checker").innerHTML = "Native Client plugin enabled.";
             break;
         case browser_version.BrowserChecker.StatusValues.UNKNOWN_BROWSER:
             console.log('UNKNOWN BROWSER');
