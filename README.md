@@ -14,7 +14,7 @@ Add to HTML:
   </div>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.css">
   <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check_browser.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/js/check.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.js"></script>
   ```
 
 <hr>
