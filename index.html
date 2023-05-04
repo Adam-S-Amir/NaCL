@@ -9,27 +9,45 @@
 
 <body>
 	<header>
-		<h1>NaCL Checker API</h1>
-		<nav>
+		<area>
+		<a class="brand" href="/">
+			<div>
+				<img src="./assets/img/Icon-32x32.png">
+			</div>
+			<b class="logo">NaCL Checker</b>
+		</a>
+		<nav class="right">
 			<ul>
 				<li><a href="./index.html">Home</a></li>
 				<li><a href="./documentation.html">Documentation</a></li>
 				<li><a href="./support.html">Support</a></li>
 			</ul>
 		</nav>
+		</area>
 	</header>
 	<main>
+		<img src="./assets/img/Icon-256x256.png">
+		<h2 class="heading-first">NaCL Checker API</h2>
+		<br>
+		<p class="subheading-first">Native Client plugin detector</p>
+		<hr class="divider-first">
 		<section>
-			<h2>Introduction</h2>
-			<p>Introducing, NaCL Checker API! This package is designed to make it easy for developers to ensure that Chrome's Native Client plugin in enabled for use in their web applications.</p>
-			<p>Features of this API package include:</p>
-			<br>
-			<ul>
-				<li>Checking of an outdated Chrome version</li>
-				<li>NaCL plugin support</li>
-				<li>Supported browser checking</li>
-				<li>Use of a server or running the API offline</li>
-			</ul>
+			<div class="container-first">
+				<h2 class="heading-second">Introduction</h2>
+				<div class="container-second">
+					<p class="subheading-second">Introducing, NaCL Checker API! This package is designed to make it easy for developers to ensure that Chrome's Native Client plugin in enabled for use in their web applications.</p>
+				</div>
+				<br>
+				<div class="container-second">
+					<p>Features of this API package include:</p>
+					<ol>
+						<li>Checking of an outdated Chrome version</li>
+						<li>NaCL plugin support</li>
+						<li>Supported browser checking</li>
+						<li>Use of a server or running the API offline</li>
+					</ol>
+				</div>
+			</div>
 		</section>
 		<section>
 			<h2>Getting Started</h2>
@@ -61,7 +79,8 @@
 						<h3 id="checker">Checking browser compatibility, please wait...</h3>
 					</div>
 					<style>
-						@import url("https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.css");
+						/* @import url("https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.css"); */
+						@import url("./assets/css/check.css");
 					</style>
 					<script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check_browser.js"></script>
 					<script src="https://cdn.jsdelivr.net/gh/MagnusMarx/NaCL/check.js"></script>

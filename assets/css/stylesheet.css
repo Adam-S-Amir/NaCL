@@ -21,9 +21,9 @@ body {
 	line-height: 1.5;
 	color: #FFD000;
 	background: repeating-linear-gradient(#146EC9, navy);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 
 }
 
@@ -38,12 +38,29 @@ ul {
 
 /* Header styles */
 header {
-    border-top: 5px solid #FFD000;
-    border-bottom: 5px solid #FFD000;
-    border-left: 5vmin solid navy;
-    border-right: 5vmin solid navy;
-    border-radius: 5vmax;
-    background-color: navy;
+	margin: 5px;
+	border-top: 5px solid #FFD000;
+	border-bottom: 5px solid #FFD000;
+	border-left: 5vmin solid navy;
+	border-right: 5vmin solid navy;
+	border-radius: 5px;
+	background-color: navy;
+}
+
+.brand {
+	align-items: center;
+	display: flex;
+	margin-right: 1rem;
+	min-width: 0;
+	position: absolute;
+}
+
+.logo {
+	align-items: center;
+	display: flex;
+	margin-right: 1rem;
+	min-width: 0;
+	color: #FFD000;
 }
 
 header h1 {
@@ -53,14 +70,18 @@ header h1 {
 	position: relative;
 }
 
-nav ul {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+header>area {
+	margin: 5px;
 }
 
-nav ul li {
-	margin-right: 1rem;
+.right {
+	display: table;
+	text-align: right;
+	margin-left: 90%;
+}
+
+nav ul {
+	justify-content: space-between;
 }
 
 nav ul li:last-child {
@@ -80,19 +101,67 @@ main {
 	padding: 2rem;
 }
 
+main img {
+	margin-left: 40%;
+}
+
 section {
 	margin-bottom: 2rem;
+	/* border: 1px solid #FFD000;
+	border-radius: 5vmin; */
 }
 
 section h2 {
 	margin-bottom: 1rem;
 }
 
+.heading-first,
+.subheading-first,
+.heading-second,
+.subheading-second {
+	text-align: -webkit-center;
+}
+
+.subheading-second {
+	float: left;
+	display: contents;
+}
+
+.divider-first {
+	margin-top: 10%;
+	margin-bottom: 5%;
+	height: 25px;
+	border-top: 5px solid #AB115E;
+	border-bottom: 5px solid #AB115E;
+	border-left: 5vmin solid #25C0C0;
+	border-right: 5vmin solid #25C0C0;
+	border-radius: 5vmax;
+	background-color: #25C0C0;
+}
+
+.container-first {
+	margin: 20px;
+}
+
 p a {
 	color: #AB115E;
 }
 
-.steps{
+.container-second {
+	width: 40%;
+	margin-left: 30%;
+}
+
+/* .container-second {
+	float: left;
+} */
+
+/* .container-third {
+	float: right;
+	display: flex	;
+} */
+
+.steps {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 15px;
 	font-weight: bolder;
@@ -103,7 +172,7 @@ section p:last-child {
 }
 
 pre {
-    background: repeating-linear-gradient(#AB115E, navy, #146EC9);
+	background: repeating-linear-gradient(#AB115E, navy, #146EC9);
 	padding: 1rem;
 	overflow-x: auto;
 }
