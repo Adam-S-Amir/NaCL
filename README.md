@@ -1,4 +1,4 @@
-[![jsDelivr](https://data.jsdelivr.com/v1.0.0/package/gh/nacl/badge)](https://www.jsdelivr.com/package/gh/nacl)
+![Size](https://github-size-badge.herokuapp.com/MagnusMarx/NaCL.svg)
 
 NaCL Chrome plugin checker
 
